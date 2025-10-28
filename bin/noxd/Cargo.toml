@@ -5,6 +5,11 @@ license.workspace = true
 edition.workspace = true
 
 [dependencies]
+clap.workspace = true
+serde.workspace = true
+nx-kernel.workspace = true
+nx-runtime.workspace = true
+nx-logger.workspace = true
 
 [lints]
 workspace = true

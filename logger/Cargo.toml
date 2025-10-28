@@ -1,0 +1,13 @@
+[package]
+name = "nx-logger"
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+tracing.workspace = true
+tracing-appender.workspace = true
+tracing-subscriber = { workspace = true, features = ["env-filter", "fmt"] }
+
+[lints]
+workspace = true
