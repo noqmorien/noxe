@@ -1,0 +1,11 @@
+[package]
+name = "nx-kernel"
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+pnx-kernel = { workspace = true, features = [] }
+
+[lints]
+workspace = true
